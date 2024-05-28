@@ -74,6 +74,7 @@
   programs.gamemode.enableRenice = true;
 
   # Gamescope
+  programs.gamescope.enable = true;
   programs.steam.gamescopeSession.enable = true;
   programs.gamescope.args = [
     "-f"
