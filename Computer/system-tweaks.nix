@@ -3,7 +3,6 @@
 {
   # Обновление микрокода
   hardware.cpu.intel.updateMicrocode = true;
-  #hardware.cpu.amd.updateMicrocode = true;
 
   # Обновление ядра
   boot.kernelPackages = pkgs.linuxPackages_latest;
