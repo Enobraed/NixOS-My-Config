@@ -1,0 +1,10 @@
+MB: Machinist X79 Z9-D7 PRO {rev1.0} | BIOS: v4.6.5 (14.02.2022) | LGA 2011
+CPU: Intel Xeon E5-2650V2 | 8 cores, 16 thread (H-T enabled) | 3000 MHz (lock)
+CLR: Zalman CNPS11X Performa
+RAM: 32GB DDR3 (4x8GB) | 1600MHz
+GPU: Nvidia Quadro K620 | Custom cooling
+PSU: AeroCool ECO-650W
+M.2: DIGMA 256 GB DGSM3256GM23T (only OC)
+SSD: Samsung 512GB SATA MZ-76P512BW [x2]
+HDD: Seagate Barracuda 500GB ST500DM002 | Toshiba 500GB DT01ACA050
+NIC: RJ45 RTL8125B | PCI-E X1 | 2500Mbps/s (312,5MB/s)
