@@ -84,6 +84,15 @@
     memoryPercent = 100;
     priority = 999;
   };
+
+  # Включить Ananicy (приоритет процессов).
+  # Ananicy-cpp - это форк демона Ananicy, переписанный на C++, который распределяет приоритеты процессов для повышения производительности и отклика системы
+  # Ananicy-rules-cachyos - набор правил для Ananicy от CachyOS, для повышения производительности и отклика системы
+  services.ananicy = {
+    enable = true;
+    package = pkgs.ananicy-cpp;
+    rulesProvider = pkgs.ananicy-rules-cachyos;
+  };
   # --------------------------------------------------------
   # Настройка компонентов для игр
 
