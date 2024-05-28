@@ -11,6 +11,7 @@
     pkgs.gamescope
     pkgs.git
     pkgs.goverlay
+    pkgs.gparted
     pkgs.libreoffice
     pkgs.lutris
     pkgs.mangohud
