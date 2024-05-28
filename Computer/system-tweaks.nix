@@ -21,9 +21,11 @@
   # Настройка системных компонентов
 
   # OpenGL
-  hardware.opengl.enable = true;
-  hardware.opengl.driSupport = true;
-  hardware.opengl.driSupport32Bit = true;
+  hardware.opengl = {
+    enable = true;
+    driSupport = true;
+    driSupport32Bit = true;
+  };
   # --------------------------------------------------------
   # Отключение ненужных функций
 
@@ -47,9 +49,11 @@
   # Прочие твики
 
   # Автоматически удалять неиспользуемые компоненты каждую неделю
-  nix.gc.automatic = true;
-  nix.gc.dates = "weekly";
-  nix.gc.options = "--delete-older-than 7d";
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 7d";
+  };
 
   # Включить TRIM для SSD
   services.fstrim.enable = true;

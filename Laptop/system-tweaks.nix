@@ -40,9 +40,11 @@
   # Прочие твики
 
   # Автоматически удалять неиспользуемые компоненты каждую неделю
-  nix.gc.automatic = true;
-  nix.gc.dates = "weekly";
-  nix.gc.options = "--delete-older-than 7d";
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 7d";
+  };
 
   # Включить TRIM для SSD
   services.fstrim.enable = true;
