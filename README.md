@@ -11,6 +11,8 @@
 
 Я постоянно экспериментирую с новыми возможностями NixOS и стараюсь использовать её потенциал на полную катушку. Мой конфиг - это результат многих часов тонкой настройки и кастомизации, направленной на повышение удобства использования и производительности системы. Я использую NixOS unstable, последнюю версию ядра и актуальные пакеты, для максимальной эффективности в использовании.
 
+В данный момент я занимаюсь переоформлением всех конфигов и множество настроек еще не добавлено на GitHub. С течением времени они будут добавляться и улучшаться.
+
 ## Благодарности
 Этот репозиторий вдохновлен сообществом NixOS и множеством участников, которые помогли сформировать проект.
 Эти настройки были написаны мной, но я также не могу не отметить друзей, которые помогали мне во всем.
@@ -27,6 +29,8 @@ This is my personal NixOS configuration, which I am constantly using and improvi
     Optimizations for gaming, such as driver tuning, power management, etc.
 
 I am constantly experimenting with new features of NixOS and trying to utilize its full potential. My config is the result of many hours of tweaking and customization to improve usability and performance. I use NixOS unstable, the latest kernel version and up-to-date packages, to maximize usability.
+
+I'm currently in the process of redesigning all the configs and a lot of customizations are not yet added to GitHub. They will be added and improved over time.
 
 ## Thanks
 This repository is inspired by the NixOS community and the many contributors who helped shape the project.
