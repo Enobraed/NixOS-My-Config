@@ -9,7 +9,7 @@
     Скрипты и хуки для автоматизации рутинных задач
     Оптимизации для игр, такие как настройка драйверов, управление питанием и т.д.
 
-Я постоянно экспериментирую с новыми возможностями NixOS и стараюсь использовать её потенциал на полную катушку. Мой конфиг - это результат многих часов тонкой настройки и кастомизации, направленной на повышение удобства использования и производительности системы.
+Я постоянно экспериментирую с новыми возможностями NixOS и стараюсь использовать её потенциал на полную катушку. Мой конфиг - это результат многих часов тонкой настройки и кастомизации, направленной на повышение удобства использования и производительности системы. Я использую NixOS unstable, последнюю версию ядра и актуальные пакеты, для максимальной эффективности в использовании.
 
 ## Благодарности
 Этот репозиторий вдохновлен сообществом NixOS и множеством участников, которые помогли сформировать проект.
@@ -26,7 +26,7 @@ This is my personal NixOS configuration, which I am constantly using and improvi
     Scripts and hooks to automate routine tasks
     Optimizations for gaming, such as driver tuning, power management, etc.
 
-I am constantly experimenting with new features of NixOS and trying to utilize its full potential. My config is the result of many hours of fine tuning and customization to improve usability and performance.
+I am constantly experimenting with new features of NixOS and trying to utilize its full potential. My config is the result of many hours of tweaking and customization to improve usability and performance. I use NixOS unstable, the latest kernel version and up-to-date packages, to maximize usability.
 
 ## Thanks
 This repository is inspired by the NixOS community and the many contributors who helped shape the project.
