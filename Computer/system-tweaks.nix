@@ -75,7 +75,6 @@
 
   # Gamescope
   programs.gamescope.enable = true;
-  programs.steam.gamescopeSession.enable = true;
   programs.gamescope.args = [
     "-f"
   	"-W 1920 -H 1080"
@@ -99,5 +98,5 @@
 
   # Steam
   programs.steam.enable = true;
-  programs.steam.extraCompatPackages = with pkgs; [ proton-ge-bin ];
+  programs.steam.extraCompatPackages = with pkgs; [proton-ge-bin];
 }
