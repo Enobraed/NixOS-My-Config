@@ -2,12 +2,18 @@
 
 {
   environment.systemPackages = with pkgs; [
+    pkgs.anydesk
+    pkgs.appeditor
     pkgs.audacious
-    pkgs.discord
     pkgs.betterdiscordctl
+    pkgs.discord
     pkgs.fastfetch
+    pkgs.gamescope
+    pkgs.git
+    pkgs.goverlay
     pkgs.libreoffice
     pkgs.lutris
+    pkgs.mangohud
     pkgs.obs-studio
     pkgs.parsec-bin
     pkgs.qbittorrent
@@ -15,12 +21,6 @@
     pkgs.telegram-desktop
     pkgs.vlc
     pkgs.vscodium
-    pkgs.mangohud
-    pkgs.goverlay
-    pkgs.gamescope
-    pkgs.anydesk
-    pkgs.appeditor
-    pkgs.git
     #GNOME
     pkgs.gnome.gnome-tweaks
     pkgs.gnomeExtensions.dash-to-dock

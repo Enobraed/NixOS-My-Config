@@ -18,6 +18,13 @@
   # Включить оптимизацию магазина nix при rebuild
   nix.settings.auto-optimise-store = true;
   # --------------------------------------------------------
+  # Настройка системных компонентов
+
+  # OpenGL
+  hardware.opengl.enable = true;
+  hardware.opengl.driSupport = true;
+  hardware.opengl.driSupport32Bit = true;
+  # --------------------------------------------------------
   # Отключение ненужных функций
 
   # Отключить NixOS Manual
@@ -51,7 +58,7 @@
 
   # Включить подкачку в ОЗУ (сжатие ОЗУ при её нехватке)
   zramSwap.enable = true;
-
+  zramSwap.algorithm = "lz4";
   # --------------------------------------------------------
   # Настройка компонентов для игр
 
