@@ -16,6 +16,7 @@
 Эти настройки были написаны мной, но я также не могу не отметить друзей, которые помогали мне во всем.
 @neizhmak, @nek0oo0o
 
+---
 <h2 align="center">ENG</h2>
 
 This is my personal NixOS configuration, which I am constantly using and improving, trying to make the system as user-friendly and practical as possible. I also try to optimize it for gaming in every possible way. Since I use NixOS on both my main computer and my laptop, I have separate configurations for each device. This allows me to customize the settings for each platform and ensure optimal performance under different conditions. I regularly update and add to my configs to adapt them to my needs and preferences. My config includes:
