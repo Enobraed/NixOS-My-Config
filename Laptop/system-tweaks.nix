@@ -18,6 +18,19 @@
   # Включить оптимизацию магазина nix при rebuild
   nix.settings.auto-optimise-store = true;
   # --------------------------------------------------------
+  # Настройка системных компонентов
+
+  # RealtimeKit - позволяет пользовательским процессам получать приоритет планирования в реальном времени. Необходим для PulseAudio.
+  security.rtkit.enable = true;
+
+  # PipeWire -  обеспечить захват и воспроизведение аудио и видео с минимальной задержкой и поддержку приложений на базе PulseAudio, JACK, ALSA и GStreamer.
+  services.pipewire = {
+    enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
+    pulse.enable = true;
+  };
+  # --------------------------------------------------------
   # Отключение ненужных функций
 
   # Отключить NixOS Manual
