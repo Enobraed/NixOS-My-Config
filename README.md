@@ -27,7 +27,7 @@ This is my personal NixOS configuration, which I am constantly using and improvi
 
 I am constantly experimenting with new features of NixOS and trying to utilize its full potential. My config is the result of many hours of fine tuning and customization to improve usability and performance.
 
-## Acknowledgements
+## Thanks
 This repository is inspired by the NixOS community and the many contributors who helped shape the project.
 These customizations were written by me, but I also can't help but acknowledge the friends who helped me with everything.
 @neizhmak, @nek0oo0o
