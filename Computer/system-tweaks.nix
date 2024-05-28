@@ -50,6 +50,9 @@
   nix.gc.automatic = true;
   nix.gc.dates = "weekly";
   nix.gc.options = "--delete-older-than 7d";
+
+  # Включить TRIM для SSD
+  services.fstrim.enable = true;
   # --------------------------------------------------------
   # Оптимизация системы
 
@@ -57,8 +60,12 @@
   services.irqbalance.enable = true;
 
   # Включить подкачку в ОЗУ (сжатие ОЗУ при её нехватке)
-  zramSwap.enable = true;
-  zramSwap.algorithm = "lz4";
+  zramSwap = {
+    enable = true;
+    algorithm = "lz4";
+    memoryPercent = 100;
+    priority = 999;
+  };
   # --------------------------------------------------------
   # Настройка компонентов для игр
 
