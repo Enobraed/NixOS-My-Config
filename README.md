@@ -1,6 +1,6 @@
 <h2 align="center">:snowflake: Enobraed NixOS Config :snowflake:</h2>
 
-RUS:
+<h2 align="center">RUS</h2>
 
 Это моя личная конфигурация NixOS, которую я постоянно использую и совершенствую, стремясь сделать систему максимально удобной и практичной. Я также пытаюсь всячески оптимизировать её для игр. Поскольку я использую NixOS как на своем основном компьютере, так и на ноутбуке, у меня есть отдельные конфигурации для каждого устройства. Это позволяет мне адаптировать настройки под специфику каждой платформы и обеспечить оптимальную работу в различных условиях. Я регулярно обновляю и дополняю свои настройки, чтобы адаптировать их под свои нужды и предпочтения. Мой конфиг включает в себя:
 
@@ -11,7 +11,12 @@ RUS:
 
 Я постоянно экспериментирую с новыми возможностями NixOS и стараюсь использовать её потенциал на полную катушку. Мой конфиг - это результат многих часов тонкой настройки и кастомизации, направленной на повышение удобства использования и производительности системы.
 
-ENG:
+## Благодарности
+Этот репозиторий вдохновлен сообществом NixOS и множеством участников, которые помогли сформировать проект.
+Эти настройки были написаны мной, но я также не могу не отметить друзей, которые помогали мне во всем.
+@neizhmak, @nek0oo0o
+
+<h2 align="center">ENG</h2>
 
 This is my personal NixOS configuration, which I am constantly using and improving, trying to make the system as user-friendly and practical as possible. I also try to optimize it for gaming in every possible way. Since I use NixOS on both my main computer and my laptop, I have separate configurations for each device. This allows me to customize the settings for each platform and ensure optimal performance under different conditions. I regularly update and add to my configs to adapt them to my needs and preferences. My config includes:
 
@@ -21,3 +26,8 @@ This is my personal NixOS configuration, which I am constantly using and improvi
     Optimizations for gaming, such as driver tuning, power management, etc.
 
 I am constantly experimenting with new features of NixOS and trying to utilize its full potential. My config is the result of many hours of fine tuning and customization to improve usability and performance.
+
+## Acknowledgements
+This repository is inspired by the NixOS community and the many contributors who helped shape the project.
+These customizations were written by me, but I also can't help but acknowledge the friends who helped me with everything.
+@neizhmak, @nek0oo0o
