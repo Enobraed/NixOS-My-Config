@@ -33,16 +33,8 @@
 		pkgs.appeditor
 		pkgs.fastfetch
 		pkgs.gparted
+		pkgs.libsForQt5.ark
 		pkgs.obs-studio
 		pkgs.qbittorrent
-
-		# GNOME
-		pkgs.gnome.gnome-tweaks
-		pkgs.gnomeExtensions.dash-to-dock
-		pkgs.gnomeExtensions.appindicator
-		pkgs.gnomeExtensions.quick-lang-switch
-
-		# Icons
-		pkgs.papirus-icon-theme
 	];
 }
