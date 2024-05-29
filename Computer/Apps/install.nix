@@ -2,7 +2,6 @@
 
 {
 	environment.systemPackages = with pkgs; [
-	
 		# Opening files
 		pkgs.audacious
 		pkgs.libreoffice
