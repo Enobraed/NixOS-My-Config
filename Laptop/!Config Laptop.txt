@@ -4,4 +4,3 @@ RAM: 8GB DDR4 (2x4GB) | 1866MHz
 GPU: Radeon R5 [Integrated]
 SSD: Samsung 512GB SATA MZ-76P512BW
 HDD: Toshiba MQ01ABF050
-Display: HD+ SVA | 1600x900 | 60 Hz
