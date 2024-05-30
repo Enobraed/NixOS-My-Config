@@ -1,6 +1,6 @@
 {
 	imports = [
-		./Intel.nix
+		./CPU.nix
 		./Network.nix
 		./Nvidia.nix
 		./RAM.nix
