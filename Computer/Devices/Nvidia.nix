@@ -14,5 +14,4 @@
 
 	# Отключить Wayland, использовать X11
 	services.xserver.displayManager.gdm.wayland = false;
-	services.xserver.enable = true;
 }
