@@ -38,6 +38,9 @@
 		obs-studio
 		qbittorrent
 
+		# AMD
+		amdvlk
 		corectrl
+		rocmPackages.clr
 	];
 }
