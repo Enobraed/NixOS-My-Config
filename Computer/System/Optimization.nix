@@ -23,8 +23,4 @@
 		package = pkgs.ananicy-cpp;
 		rulesProvider = pkgs.ananicy-rules-cachyos;
 	};
-
-	# Отключить IPv6
-	networking.enableIPv6 = false;
-	networking.dhcpcd.extraConfig = "\nnoipv6rs \nnoipv6";
 }

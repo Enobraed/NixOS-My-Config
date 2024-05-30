@@ -4,5 +4,6 @@
 		./Disabling-apps.nix
 		./Etc.nix
 		./Optimization.nix
+		./User.nix
 	];
 }
