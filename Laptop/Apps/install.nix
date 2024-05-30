@@ -11,6 +11,7 @@
 		betterdiscordctl
 		discord
 		telegram-desktop
+		whatsapp-for-linux
 
 		# Gaming
 		gamescope
@@ -36,5 +37,7 @@
 		libsForQt5.ark
 		obs-studio
 		qbittorrent
+
+		corectrl
 	];
 }
