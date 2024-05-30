@@ -9,15 +9,17 @@
 	security.rtkit.enable = true;
 
 	# Отключить PulseAudio
-	hardware.pulseaudio.enable = false;
-	hardware.pulseaudio.support32Bit = false;
+	hardware.pulseaudio = {
+		enable = false;
+		support32Bit = false;
+	};
 
 	# PipeWire
 	# Обеспечить захват и воспроизведение аудио и видео с минимальной задержкой и поддержку приложений на базе PulseAudio, JACK, ALSA и GStreamer.
 	services.pipewire = {
 		enable = true;
-    	alsa.enable = true;
-    	alsa.support32Bit = true;
-    	pulse.enable = true;
+		alsa.enable = true;
+		alsa.support32Bit = true;
+		pulse.enable = true;
 	};
 }

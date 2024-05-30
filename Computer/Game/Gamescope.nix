@@ -1,11 +1,13 @@
 { config, pkgs, ... }:
 
 {
-	programs.gamescope.enable = true;
-	programs.gamescope.args = [
-		"-f"
-		"-W 1920 -H 1080"
-	];
+	programs.gamescope= {
+		enable = true;
+		args = [
+			"-f"
+			"-W 1920 -H 1080"
+		];
+	};
 
 	nixpkgs.config.packageOverrides = pkgs: {
 		steam = pkgs.steam.override {
