@@ -6,7 +6,6 @@
 		description = "Enobraed";
 		extraGroups = [ "networkmanager" "wheel" ];
 		packages = with pkgs; [
-			firefox
 		];
 	};
 

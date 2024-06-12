@@ -2,6 +2,9 @@
 
 {
 	environment.systemPackages = with pkgs; [
+
+		librewolf
+
 		# Opening files
 		audacious
 		libreoffice
@@ -37,5 +40,6 @@
 		libsForQt5.ark
 		obs-studio
 		qbittorrent
+		pulseeffects-legacy
 	];
 }
